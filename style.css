@@ -1,0 +1,72 @@
+body{
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('assets/bd.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /*background-attachment: fixed;*/
+      height: 100vh;
+      background-color: blanchedalmond;
+      margin:0;
+      padding:0;
+}
+.quotebox{
+      display: flex;
+      background-color: blanchedalmond;
+      padding: 30px;
+      border-radius: 200px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;
+      width: 500px;
+      padding: 20px;
+      position: relative;
+      margin:0 auto;
+}
+ #heading{
+      text-align: center;
+      text-shadow: 5px 5px 5px #55351cc0;
+      margin-top: 5px;
+      height: 30px;
+      text-size-adjust: 40px;
+     
+ }
+ #quote {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 15px;
+
+}
+
+#author {
+  font-size: 23px;
+  margin-bottom: 20px;
+  align-self: flex-start; 
+  text-align: right;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4f371e;
+  color: white;
+  cursor: pointer;
+  align-self: center;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 4);
+}
+
+button:hover {
+  background-color: rgba(88, 44, 30, 0.575);
+  box-shadow:22px 22px 22px rgba(0, 0, 0, 4) ;
+}
